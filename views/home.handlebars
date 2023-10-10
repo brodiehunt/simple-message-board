@@ -1,0 +1,11 @@
+<h1>Messages</h1>
+<a href="/index/new">Create new message</a>
+<div class="message-container">
+  {{#each messages}}
+    <div class="message">
+      <h2>{{user}}</h2>
+      <p>{{text}}</p>
+      <p>{{added}}</p>
+    </div>
+  {{/each}}
+</div>
